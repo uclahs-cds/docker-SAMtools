@@ -1,13 +1,16 @@
 # docker-samtools
 Dockerfile for samtools - a tools for "Reading/writing/editing/indexing/viewing SAM/BAM/CRAM format".
 
-The image is located in the BLCDS repo: https://hub.docker.com/r/blcdsdockerregistry/samtools
+Boutros Lab Docker Hub repo: https://hub.docker.com/r/blcdsdockerregistry/samtools
 
 # Documentation
 Samtools documentation [here](http://www.htslib.org/doc/samtools.html).
 
 # Version
-Current version: 1.11
+| Tool | Version |
+|------|---------|
+|Samtools| 1.11|
+
 
 ---
 
