@@ -1,11 +1,11 @@
 ---
 Category: 'docker'
-Description: 'Dockerfile for Samtools'
-Maintainers: ['rhughwhite@mednet.ucla.edu'] # email address of maintainers
-Contributors: 'Rupert Hugh-White' # Full names of contributors
-Languages: ['Docker', 'shell script'] # programming languages used
+Description: 'Template Docker repository for Samtools'
+Maintainers: ['rhughwhite@mednet.ucla.edu']
+Contributors: ['Rupert Hugh-White']
+Languages: ['Docker', 'bash']
 Tools: ['Samtools']
 Version: ['1.11']
 Purpose: 'A tool for reading/writing/editing/indexing/viewing SAM/BAM/CRAM format'
-Dependencies: ['docker'] # packages, tools that repo needs to run
+Dependencies: ['docker', 'conda', 'bl-base']
 References: 'Li H et al. Bioinformatics 25, (2009)'
