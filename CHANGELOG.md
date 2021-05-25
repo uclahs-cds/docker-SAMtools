@@ -10,7 +10,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Added
 - Update to Samtools 1.12
 
-## [1.0.0] - 2021-04-28
+## [1.11] - 2021-04-28
 ### Added
 - git repo created
 - Samtools 1.11
