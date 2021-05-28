@@ -1,6 +1,6 @@
 ---
 Category: 'docker'
-Description: 'Docker repository for Samtools'
+Description: 'Docker repository for SAMtools'
 Maintainers: ['rhughwhite@mednet.ucla.edu']
 Contributors: ['Rupert Hugh-White', 'Helena Winata']
 Languages: ['Docker', 'bash']
