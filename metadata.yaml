@@ -3,7 +3,7 @@ Category: 'docker'
 Description: 'Docker repository for SAMtools'
 Maintainers: ['rhughwhite@mednet.ucla.edu']
 Contributors: ['Rupert Hugh-White', 'Helena Winata', 'Arpi Beshlikyan']
-Languages: ['Docker', 'bash']
+Languages: ['Dockerfile']
 Tools: ['SAMtools']
 Version: ['1.14']
 Purpose: 'A tool for reading/writing/editing/indexing/viewing SAM/BAM/CRAM format'
