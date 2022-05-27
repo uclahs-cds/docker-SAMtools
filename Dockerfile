@@ -1,7 +1,7 @@
 FROM blcdsdockerregistry/bl-base:1.1.0 AS builder
 
 # Use mamba to install tools and dependencies into /usr/local
-ARG SAMTOOLS_VERSION=1.14
+ARG SAMTOOLS_VERSION=1.15.1
 RUN mamba create -qy -p /usr/local \
     -c bioconda \
     -c conda-forge \
