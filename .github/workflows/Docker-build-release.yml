@@ -5,7 +5,7 @@ on:
     tags: ['v*]
   release:
     types: [published]
-    
+
 jobs:
   build-and-push-image:
     runs-on: ubuntu-latest
