@@ -9,7 +9,7 @@ SAMtools documentation [here](http://www.htslib.org/doc/samtools.html).
 # Version
 | Tool | Version |
 |------|---------|
-|SAMtools| 1.15.1|
+|SAMtools| 1.16.1|
 
 
 ---
