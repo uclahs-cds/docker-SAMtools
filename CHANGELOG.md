@@ -9,13 +9,12 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [Unreleased]
 
-## [Unreleased] 2023-01-04
 - Update PR template, including replace references to Docker Hub Auto Build with GitHub Packages
 
 ---
 
 ## [1.16.1] 2023-01-04
-### Updated
+### Changed
 - Update to SAMtools 1.16.1
 - Add Docker auto-build action
 
