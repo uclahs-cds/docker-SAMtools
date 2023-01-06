@@ -6,14 +6,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
+
 ## [Unreleased]
+
+## [Unreleased] 2023-01-04
+- Update PR template, including replace references to Docker Hub Auto Build with GitHub Packages
+
 ---
 
 ## [1.16.1] 2023-01-04
 ### Updated
 - Update to SAMtools 1.16.1
-- Added Docker auto-build action
-- Updated PR template, including replaced references to Docker Hub Auto Build with GitHub Packages
+- Add Docker auto-build action
 
 ## [1.15.1] 2022-05-27
 ### Updated
