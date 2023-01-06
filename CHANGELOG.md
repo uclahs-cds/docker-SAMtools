@@ -17,6 +17,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ## [1.16.1] 2023-01-04
 ### Changed
 - Update to SAMtools 1.16.1
+### Added
 - Add Docker auto-build action
 
 ## [1.15.1] 2022-05-27
