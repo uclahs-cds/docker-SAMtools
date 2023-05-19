@@ -1,4 +1,6 @@
-FROM blcdsdockerregistry/bl-base:1.1.0 AS builder
+ARG MINIFORGE_VERSION=22.9.0-2
+
+FROM condaforge/mambaforge:${MINIFORGE_VERSION} AS builder
 
 # Use mamba to install tools and dependencies into /usr/local
 ARG SAMTOOLS_VERSION=1.17
@@ -18,4 +20,5 @@ RUN groupadd -g 500001 bldocker && \
 # Change the default user to bldocker from root
 USER bldocker
 
-LABEL maintainer="Rupert Hugh-White <rhughwhite@mednet.ucla.edu>"
+LABEL maintainer="Rupert Hugh-White <rhughwhite@mednet.ucla.edu>" \
+org.opencontainers.image.source=https://github.com/uclahs-cds/docker-SAMtools

@@ -2,7 +2,7 @@
 category: 'docker'
 description: 'Docker repository for SAMtools'
 maintainers: ['rhughwhite@mednet.ucla.edu']
-contributors: ['Rupert Hugh-White', 'Helena Winata', 'Arpi Beshlikyan', 'Jaron Arbet', 'Sorel Fitz-Gibbon']
+contributors: ['Rupert Hugh-White', 'Helena Winata', 'Arpi Beshlikyan', 'Jaron Arbet', 'Sorel Fitz-Gibbon', 'Beth Neilsen']
 languages: ['Dockerfile']
 tools: ['SAMtools']
 version: ['1.17']
