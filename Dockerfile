@@ -3,7 +3,7 @@ ARG MINIFORGE_VERSION=22.9.0-2
 FROM condaforge/mambaforge:${MINIFORGE_VERSION} AS builder
 
 # Use mamba to install tools and dependencies into /usr/local
-ARG SAMTOOLS_VERSION=1.18
+ARG SAMTOOLS_VERSION=1.19.2
 RUN mamba create -qy -p /usr/local \
     -c bioconda \
     -c conda-forge \
