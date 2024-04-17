@@ -10,6 +10,10 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ## [Unreleased]
 
 ---
+## [1.20] 2024-04-17
+### Changed
+- Update SAMTools version to 1.20
+
 ## [1.19.2] 2024-01-24
 ### Changed
 - Update SAMTools version to 1.19.2
