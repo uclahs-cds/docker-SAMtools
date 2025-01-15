@@ -5,9 +5,10 @@ FROM condaforge/mambaforge:${MINIFORGE_VERSION} AS builder
 # Use mamba to install tools and dependencies into /usr/local
 ARG SAMTOOLS_VERSION=1.21
 RUN mamba create -qy -p /usr/local \
-    -c bioconda \
     -c conda-forge \
-    samtools==${SAMTOOLS_VERSION}
+    -c bioconda \
+    samtools==${SAMTOOLS_VERSION} \
+    gnuplot
 
 # Deploy the target tools into a base image
 FROM ubuntu:20.04
