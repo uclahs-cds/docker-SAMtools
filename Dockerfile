@@ -5,6 +5,7 @@ ARG SAMTOOLS_VERSION=1.21
 RUN mamba create -qy -p /usr/local \
     -c conda-forge \
     -c bioconda \
+    --strict-channel-priority \
     samtools==${SAMTOOLS_VERSION}
 
 # Deploy the target tools into a base image
