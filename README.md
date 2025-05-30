@@ -9,7 +9,7 @@ SAMtools documentation [here](http://www.htslib.org/doc/samtools.html).
 # Version
 | Tool | Version |
 |------|---------|
-|SAMtools| 1.21  |
+|SAMtools| 1.22  |
 |gnuplot| 5.4 patchlevel 10 |
 
 ---

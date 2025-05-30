@@ -5,7 +5,7 @@ maintainers: ['rhughwhite@mednet.ucla.edu']
 contributors: ['Rupert Hugh-White', 'Helena Winata', 'Arpi Beshlikyan', 'Jaron Arbet', 'Sorel Fitz-Gibbon', 'Beth Neilsen', 'Kiarod Pashminehazar']
 languages: ['Dockerfile']
 tools: ['SAMtools', 'gnuplot']
-version: ['1.21']
+version: ['1.22']
 purpose: 'A tool for reading/writing/editing/indexing/viewing SAM/BAM/CRAM format'
 references: 'Li H et al. Bioinformatics 25, (2009)'
 image_name: 'samtools'
